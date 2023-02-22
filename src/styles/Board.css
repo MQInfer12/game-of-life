@@ -1,0 +1,27 @@
+.board-container {
+  width: calc(100vw - 40px);
+  width: 500px;
+  height: 500px;
+  margin: 20px;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.cell {
+  border: 1px solid rgb(0, 0, 0, .2);
+}
+
+.active {
+  background-color: black;
+  animation: appear 100ms linear;
+}
+
+@keyframes appear {
+  0% {
+    background-color: transparent;
+  }
+  90% {
+    background-color: black;
+  }
+}
