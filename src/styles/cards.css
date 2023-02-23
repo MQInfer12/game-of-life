@@ -1,0 +1,44 @@
+.cards-container {
+  grid-area: cards;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.card {
+  width: 100%;
+  padding: 1rem;
+  background-color: #FFFFFF;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 60px -7px rgba(18,31,62,0.1);
+  -webkit-box-shadow: 0px 0px 60px -7px rgba(18,31,62,0.1);
+  -moz-box-shadow: 0px 0px 60px -7px rgba(18,31,62,0.1);
+  display: flex;
+  gap: 1rem;
+}
+
+.card > i {
+  font-size: 2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  max-width: 4rem;
+}
+
+.card-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.card-text-title {
+  color: #9198A7;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.card-text-data {
+  color: #121F3E;
+  font-weight: 800;
+  font-size: 1.5rem;
+}

@@ -2,4 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Cera Pro';
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url("../src/assets/fonts/CeraProLight.otf") format("truetype");
+}
+
+body {
+  background-color: #F0F7FD;
 }
