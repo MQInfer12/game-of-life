@@ -1,6 +1,9 @@
 <h1 align="center">
   <p>Game of Life<p>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/Conways_game_of_life_breeder_animation.gif" width="500" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/97072752/224577004-71ae62ac-c94e-4556-bbfd-2d3b4c862e89.gif">
+    <img src="https://user-images.githubusercontent.com/97072752/224576813-4a086ec1-6ed6-4d5f-8047-be70e58e57b9.gif" width="500" />
+  </picture>
 </h1>
 <p>
   The Game of Life by the mathematician John Horton Conway was created in 1970, is a zero-player game 
